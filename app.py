@@ -4,7 +4,7 @@ import re
 from openai import OpenAI 
 
 st.set_page_config(page_title="Green City MI Tutor", page_icon="🌱")
-st.title("🌱 Green City - Szókratészi MI Mentor")
+st.title("🌱 Green City - MI Mentor")
 
 # A Groq ingyenes API kulcsát a Streamlit Secrets-be fogod bemásolni
 # Az alap URL-t pedig átirányítjuk a Groq szuperszámítógépeire
