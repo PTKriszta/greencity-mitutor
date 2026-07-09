@@ -42,7 +42,7 @@ if user_input := st.chat_input("Írj ide a mentornak..."):
             
             # Itt a Groq bivalyerős és ingyenes Llama 3.1 70B modelljét hívjuk meg!
             response = client.chat.completions.create(
-                model="llama3-8b-8192", 
+                model="llama-3.1-8b-instant", 
                 messages=api_messages,
                 temperature=0.5
             )
